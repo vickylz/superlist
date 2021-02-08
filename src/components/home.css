@@ -1,0 +1,49 @@
+.homepage {
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+
+.rowhomepage {
+    align-items: center;
+    height: 100vh;
+}
+
+.titlehome {
+    font-family: 'Libre Baskerville', serif;
+  color: #FF4A49;
+  font-size: 100px;
+}
+
+.phrase {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #242424;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.begin {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #FF4A49;
+    font-weight: bold;
+    font-size: 21px;
+    cursor: pointer;
+    animation: 1s slide;
+}
+
+.begin:hover {
+  color: #FF4A49;
+}
+
+@keyframes slide {
+    from {
+      margin-right: 0%;
+      width: 50%;
+    }
+  
+    to {
+      margin-left: 15%;
+      width: 100%;
+    }
+  }
+

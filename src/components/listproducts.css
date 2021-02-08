@@ -1,0 +1,158 @@
+.sectionheader {
+    background: #FF4A49;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.sectiontitle{
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 10px;
+    color: #ffffff;
+}
+
+.back {
+  width: 30px;
+  height: 30px;
+ cursor: pointer;
+}
+
+
+.Section {
+    background-color:#ffffff;
+  border-radius: 25px;
+  position: relative;
+  min-height: auto;
+  -webkit-box-shadow: 1px 3px 15px 1px rgba(0,0,0,0.25); 
+box-shadow: 1px 3px 15px 1px rgba(0,0,0,0.25);
+}
+
+.footer {
+    position: relative;
+    align-items: left;
+}
+
+.other-row {
+  justify-content: space-AROUND;
+  margin-top: 15px;
+  padding-left: 50px;
+}
+
+.listproductscol {
+display: contents;
+}
+
+.item {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 1px 3px 15px 1px rgba(0,0,0,0.25); 
+box-shadow: 1px 3px 15px 1px rgba(0,0,0,0.25);
+margin-bottom: 3%;
+padding-bottom: 1%;
+padding-top:1%;
+width: 45%;
+font-size: 20px;
+font-family: 'Libre Baskerville', serif;
+margin-top: 1.5%;
+}
+
+.margin {
+  margin-left: 2%;
+}
+
+.total-title{
+  text-align: end;
+}
+
+.total-row{
+  justify-content: space-around;
+}
+
+.itemList {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 20px;
+  background-color: #ffffff;
+margin-bottom: 3%;
+padding-bottom: 1%;
+padding-top:1%;
+margin-left: 6%;
+width: 90%;
+font-size: 20px;
+font-family: 'Libre Baskerville', serif;
+margin-top: 1.5%;
+}
+.row-input2 {
+  margin-left: 10px;
+}
+.addbutton {
+  background-color: #FF4A49;
+  color: #ffffff;
+  border-radius: 20px;
+
+}
+
+.add-other-button{
+  background-color: #FF4A49;
+  color: #ffffff;
+  border-radius: 20px;
+  margin-left: 25px;
+  margin-top:15px;
+}
+
+label {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.arrowback {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  background-color: #FF4A49;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.input-label {
+  justify-content: space-around;
+}
+
+.input:focus, .input2:focus {
+  outline-color: #FF4A49;
+}
+
+
+.input {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.input2 {
+  width: 200px;
+  margin-left: 20px;
+}
+
+
+.form-other{
+  display: flex;
+  align-content: center;
+}
+
+.centrar{
+  display: flex;
+  align-items:center;
+}
+
+.plus {
+  font-weight: bolder;
+  cursor: pointer;
+  align-self: center;
+}

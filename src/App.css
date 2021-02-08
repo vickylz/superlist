@@ -1,0 +1,19 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html, body, #root, .App, .container, .approw, .appcol {
+  min-height: 100vh;
+  background-color:#EDEDED;
+}
+
+
+.container {
+  min-width: 90vw;
+}
+
+
+
