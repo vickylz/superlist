@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import './listproducts.css';
 import { Row, Col } from 'react-bootstrap';
 import AddIcon from '@material-ui/icons/Add';
@@ -15,7 +15,7 @@ function ListProducts(props) {
             </header>
             <Col className="margin">
                 <Col xs={9} className="listproductscol">
-                    {props.activeSection.id != 12 ? (
+                    {props.activeSection.id !== 12 ? (
                         <Row className="itemsrow">
                             {props.activeSection.list.map(item =>
                                 <div className="item">

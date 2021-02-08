@@ -1,6 +1,6 @@
-import React, { Component, Fragment } from 'react';
+import React from 'react';
 import './home.css';
-import { Row, Col, Button } from 'react-bootstrap';
+import { Row, Col  } from 'react-bootstrap';
 import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 import { Link } from 'react-router-dom';
 

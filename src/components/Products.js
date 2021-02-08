@@ -605,7 +605,7 @@ function Products() {
         <Col xs={4} className="colrow">
           <div className="SuperList">
             <header className="superlistheader">
-              <h2 className="supertitle">Super List{listItems.length != 0 ? (<Tooltip title="Clear" placement="right"><ClearAllIcon className="removebutton" onClick={() => clearAll()}/></Tooltip> ) : ''}</h2>
+              <h2 className="supertitle">Super List{listItems.length !== 0 ? (<Tooltip title="Clear" placement="right"><ClearAllIcon className="removebutton" onClick={() => clearAll()}/></Tooltip> ) : ''}</h2>
             </header>
             <div className="listItems">
               {listItems ? (listItems.map(item =>
@@ -620,7 +620,7 @@ function Products() {
               )) : (<p></p>)}
               <div className="total p-3">
                 <Col className="totaltitle">
-                  {total != 0 ?
+                  {total !== 0 ?
                     (<Row className="total-row"><Col xs={7} className="total-title">Total $ {total}</Col>
                       <div><Tooltip title="Done!" placement="top"><AssignmentTurnedInIcon fontSize="medium" className="done-button" onClick={() => doneModal()} /></Tooltip></div></Row>
                     ) :
