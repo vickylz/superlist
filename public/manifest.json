@@ -1,0 +1,7 @@
+{
+    "name": "Super List",
+    "short-name": "SuperList",
+    "start_url": "/home",
+    "display": "standalone",
+    "background_color": "#fff"
+}
