@@ -2,6 +2,5 @@
     "name": "Super List",
     "short-name": "SuperList",
     "start_url": "",
-    "display": "browser",
-    "background_color": "#fff"
+    "display": "browser"
 }
