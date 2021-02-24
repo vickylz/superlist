@@ -6,7 +6,7 @@ import CondimentsAndSpices from '../images/condimentsspices.png';
 import CleaningAndHygene from '../images/cleaningandbath.png';
 import Dairy from '../images/dairy.png';
 import Drinks from '../images/drinks.png';
-import Fruits from '../images/fruits.jpg';
+import Fruits from '../images/fruits.png';
 import Vegetables from '../images/vegetables.png';
 import Pharmacy from '../images/pharmacy.png';
 import Snacks from '../images/snacks.png';
