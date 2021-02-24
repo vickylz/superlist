@@ -11,7 +11,7 @@ import Vegetables from '../images/vegetables.png';
 import Pharmacy from '../images/pharmacy.png';
 import Snacks from '../images/snacks.png';
 import Other from '../images/other.png';
-import './components.css';
+import '../components/components.css';
 import { Row, Col, Container } from 'react-bootstrap';
 import ListProducts from './ListProducts';
 import RemoveIcon from '@material-ui/icons/Remove';
@@ -585,7 +585,7 @@ function Products() {
                 <Fragment>{
                   products.map(product =>
                     <div className="product">
-                      <div className={"product-section " + (product.hovered ? 'visible' : 'no-visible')}>
+                      <div className={"product-section "}>  
                         <span>{product.name}</span>
                       </div>
                       <img src={product.imgSrc}

@@ -36,10 +36,11 @@ border-radius: 25px;
   justify-content: center;
 }
 
-.visible {
-  background: #FF4A49;
-  color: #ffffff;
-    border-Radius: 25px;
+
+.product .product-section {
+  background: #ff4a49;
+  color: #fff;
+  border-Radius: 25px;
     box-Shadow: '0 3px 5px 2px rgba(255, 105, 135, .3)';
     color: 'white';
     height: 15;
@@ -48,6 +49,11 @@ border-radius: 25px;
     opacity: 90%;
     font-family: Verdana, Geneva, sans-serif;
     cursor: pointer;
+  opacity: 0;
+}
+
+.product:hover .product-section {
+opacity: 1;
 }
 
 .product {
@@ -75,9 +81,9 @@ box-shadow: 1px 3px 15px 1px rgba(0,0,0,0.25);
 }
 
 
-.no-visible {
+/* .no-visible {
   opacity: 0;
-}
+} */
 
 .title-done-copy {
   font-family: 'Libre Baskerville', serif;
