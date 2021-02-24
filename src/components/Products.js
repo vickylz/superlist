@@ -10,7 +10,7 @@ import Fruits from '../images/fruits.jpg';
 import Vegetables from '../images/vegetables.png';
 import Pharmacy from '../images/pharmacy.png';
 import Snacks from '../images/snacks.png';
-import Other from '../images/other.png'
+import Other from '../images/other.png';
 import './components.css';
 import { Row, Col, Container } from 'react-bootstrap';
 import ListProducts from './ListProducts';
